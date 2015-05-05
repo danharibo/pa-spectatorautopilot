@@ -1,0 +1,37 @@
+.div_spautopilot
+{
+  position: relative;
+  margin:0 auto; /*centered*/
+  border:1px solid #1D759A;
+  box-shadow:inset 50px 50px 50px 50px #0B1C23;
+}
+
+.div_anchor_bar_cont
+{
+	margin:5px;
+}
+
+.btn_spectator_autopilot {
+	margin: 0px;
+	padding: 1.5px;
+	display: block;
+	border:1px solid rgba(0, 179, 255, 1);
+        text-shadow: 0px 2px 2px black;
+	text-align: center;
+	font-size: 1.5em;
+	color: #666;
+	transition: text-shadow;
+}
+
+.btn_spectator_autopilot:hover {
+	
+}
+
+.btn_spectator_autopilot_active {
+	color: white;
+}
+
+.anchor_active:hover {
+	color: white;
+	box-shadow: inset 0px 0px 8px #000;
+}

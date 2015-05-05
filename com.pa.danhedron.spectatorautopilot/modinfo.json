@@ -1,0 +1,28 @@
+{
+  "context": "client",
+  "identifier": "com.pa.danhedron.spectatorautopilot",
+  "display_name": "Spectator Autopiot",
+  "description": "Click to enable focus the Spectator camera on exciting events.",
+  "author": "danhedron",
+  "version": "1.0",
+  "build": "74525",
+  "date": "2015/05/02",
+  "signature": "not yet implemented",
+  "category": [
+    "in-game",
+    "ui"
+  ],
+  "id": "spectatorautopilot",
+  "icon": "",
+  "priority": 100,
+  "scenes": {
+    "LiveGame_FloatZone": [
+      "coui://ui/mods/SpectatorAutopilot/live_game/SpectatorAutopilot.css",
+      "coui://ui/mods/SpectatorAutopilot/live_game/SpectatorAutopilot.js"
+    ]
+  },
+  "enabled": true,
+  "dependencies": [
+    "com.pa.raevn.rfloatframe"
+  ]
+}
